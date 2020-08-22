@@ -1,0 +1,13 @@
+cmake -D CMAKE_BUILD_TYPE=RELEASE \                                       ✔  ⚙  650  22:00:22 
+ -D CMAKE_INSTALL_PREFIX=/usr/local \
+ -D WITH_CUDA=ON \
+ -D ENABLE_FAST_MATH=1 \
+ -D CUDA_FAST_MATH=1 \
+ -D WITH_CUBLAS=1 \
+ -D INSTALL_PYTHON_EXAMPLES=OFF \
+ -D INSTALL_C_EXAMPLES=OFF \
+ -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python \
+ -D WITH_GTK=ON \
+ -D ENABLE_PRECOMPILED_HEADERS=OFF \
+ -D BUILD_EXAMPLES=OFF ..
+
